@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Just-Screen</title>
+        <style>
+            body {
+                background-color: white;
+                transition: background-color 0.7s ease;
+                min-height: 90vh;
+                margin: 0;
+                padding: 20px;
+            }
+
+            .color-button {
+                padding: 5px 10px;
+                margin: 5px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                font-size: 5px;
+            }
+
+            .broken-pixel-example {
+                padding: 0.5px 0.5px;
+                margin: 5px;
+                border: none;
+                cursor: pointer;
+                border-radius: 1px;
+                font-size: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <button
+            class="color-button green-hover"
+            style="background-color: black; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: grey; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: brown; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: pink; color: white"
+        ></button>
+        <button
+            class="color-button red-hover"
+            style="background-color: red; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: orange; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: yellow; color: white"
+        ></button>
+        <button
+            class="color-button blue-hover"
+            style="background-color: lightgreen; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: cyan; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: blue; color: white"
+        ></button>
+        <button
+            class="color-button green-hover"
+            style="background-color: darkviolet; color: white"
+        ></button>
+
+        <!--<button
+            class="broken-pixel-example"
+            style="background-color: black; color: white"
+        ></button>-->
+
+        <script>
+            // Скрипт для смены цвета
+            document.querySelectorAll(".color-button").forEach((button) => {
+                button.addEventListener("mouseenter", function () {
+                    const color = this.style.backgroundColor;
+                    document.body.style.backgroundColor = color;
+                });
+
+                button.addEventListener("mouseleave", function () {
+                    document.body.style.backgroundColor = "white";
+                });
+            });
+        </script>
+    </body>
+</html>
