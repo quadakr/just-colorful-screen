@@ -19,7 +19,7 @@ Filling the screen with a defined color to search for broken pixels.
 ---
 
 ## Installing and usage
-Download "just-colorful-screen/just-colorful-screen.html", and launch it with your browser.
+Download "just-colorful-screen.html", and launch it with your browser.
 
 Or visit "link-will-be-added-after"
 
