@@ -21,7 +21,7 @@ Filling the screen with a defined color to search for broken pixels.
 ## Installing and usage
 Download "just-colorful-screen.html", and launch it with your browser.
 
-Or visit "link-will-be-added-after"
+Or visit <a href="https://quadakr.github.io/just-colorful-screen/just-colorful-screen.html" target="blank">online page</a>.
 
 Press f11 (or fn+f11 on most laptops) on the page, and hover your cursor over the colored buttons.
 
