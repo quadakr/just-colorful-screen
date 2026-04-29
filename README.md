@@ -1,3 +1,5 @@
+## Caution: Strictly prohibited for use in California.
+
 # just-colorful-screen
 Simple browser utility used to find broken/stuck pixels on screens.
 
